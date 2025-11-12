@@ -50,7 +50,7 @@ function newElement() {
   showToast("success");
 }
 
-// Mevcut liste elemanlarına close button ekle
+// Close Button
 document.addEventListener("DOMContentLoaded", function () {
   const listItems = document.querySelectorAll("#list li");
   listItems.forEach((li) => {
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Listeye tıklayınca checked toggle
+//checked toggle
 list.addEventListener("click", function (e) {
   if (e.target.tagName === "LI" && !e.target.classList.contains("close")) {
     e.target.classList.toggle("checked");
