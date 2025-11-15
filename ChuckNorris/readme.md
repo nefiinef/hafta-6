@@ -1,7 +1,7 @@
 # Chuck Norris Jokes
  
 Bu proje eğitim amaçlı oluşturulmuştur
-Projeyi incelemek için [Tıklayın]()
+Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/hafta-6/ChuckNorris/)
 
 ## Özellikler
 * Sayfa yapısı için semantik HTML 
